@@ -2,7 +2,12 @@
 name = "cuda-lock"
 version = "0.1.0"
 edition = "2021"
-description = "Distributed locking — mutex, read-write locks, leases, deadlock detection, and resource coordination for agent fleets"
+description = "Distributed locking — mutex, read-write, leases, deadlock detection"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-lock"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
