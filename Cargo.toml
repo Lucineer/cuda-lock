@@ -1,0 +1,8 @@
+[package]
+name = "cuda-lock"
+version = "0.1.0"
+edition = "2021"
+description = "Distributed locking — mutex, read-write locks, leases, deadlock detection, and resource coordination for agent fleets"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
